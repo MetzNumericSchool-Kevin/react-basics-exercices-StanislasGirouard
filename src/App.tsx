@@ -1,5 +1,6 @@
 import "./App.css";
 import Exercice1 from "./exercices/exercice1/Component";
+import Exercice2 from "./exercices/exercice2/Component";
 
 function App() {
   return (
@@ -7,10 +8,7 @@ function App() {
       
       <Exercice1 />
 
-      <section id="exercice2">
-        <h2>Si je ne suis pas là, faites sonner la cloche !</h2>
-        <button className="btn btn-primary">🛎️ Appeler Archibald</button>
-      </section>
+      <Exercice2 />
 
       <h1 className="my-5">Voici quelques objets de ma boutique :</h1>
 
