@@ -2,7 +2,7 @@ function BoutonAppelArchibald(){
 
     function quandSorcierRepond(){
         return (
-            console.log("🧙‍♂️ Archibald : J'arrive, j'arrive Aventurier !")
+            alert("🧙‍♂️ Archibald : J'arrive, j'arrive Aventurier !")
         )
         
     }
