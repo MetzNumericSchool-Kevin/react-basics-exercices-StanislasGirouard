@@ -1,14 +1,22 @@
-function BoutonAppelArchibald(){
+function BoutonAppelArchibald(props){
 
-    function quandSorcierRepond(){
-        return (
-            alert("🧙‍♂️ Archibald : J'arrive, j'arrive Aventurier !")
-        )
-        
+    function onClickHandler(){
+        props.quandSorcierRepond("🧙‍♂️ Archibald : J'arrive, j'arrive Aventurier !")
     }
+
     return (
-    <button onClick={quandSorcierRepond} className="btn btn-primary">🛎️ Appeler Archibald</button>
+    <button onClick={onClickHandler} className="btn btn-primary">🛎️ Appeler Archibald</button>
     )
 }
+
+// const AutreComposant = BoutonAppelArchibald;
+
+// const AutreComposantB = function () {
+
+// }
+
+// const AutreComposantC = () => {
+
+// }
 
 export default BoutonAppelArchibald
