@@ -8,5 +8,5 @@ export default function Exercice1(){
             <BienvenueAventurier texte="Bienvenue Aventurier, ici vous pouvez acheter divers objets et potions
                 magiques pour vos aventures !" />
         </section>
-    )
+    );
 }

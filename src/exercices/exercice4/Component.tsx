@@ -16,18 +16,18 @@ export default function Exercice4 (){
     }
 
     return (
-    <section id="exercice4" className="my-5">
-        <h2>Les boîtes polycouleurs</h2>
+        <section id="exercice4" className="my-5">
+            <h2>Les boîtes polycouleurs</h2>
 
-        <Bouton color="btn btn-danger" texte="Change le premier carré en rouge." onClick={Red}/>
-        <Bouton color="btn btn-primary" texte="Change les 2 premiers carré en bleu." onClick={Blue}/>
-        <Bouton color="btn btn-success" texte="Change tous les carré en vert." onClick={Green}/>
-        <div className="row mt-5 gap-5">
-            <Boite color={color[0]}/>
-            <Boite color={color[1]}/>
-            <Boite color={color[2]}/>
-        </div>
-        
+            <Bouton color="btn btn-danger" texte="Change le premier carré en rouge." click={Red}/>
+            <Bouton color="btn btn-primary" texte="Change les 2 premiers carré en bleu." click={Blue}/>
+            <Bouton color="btn btn-success" texte="Change tous les carré en vert." click={Green}/>
+
+            <div className="row mt-5 gap-5">
+                <Boite squareColor={color[0]}/>
+                <Boite squareColor={color[1]}/>
+                <Boite squareColor={color[2]}/>
+            </div>  
       </section>
-    )
+    );
 }

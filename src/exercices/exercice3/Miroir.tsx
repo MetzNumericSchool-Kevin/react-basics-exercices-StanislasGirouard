@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Miroir() {
+export default function Miroir() {
     const [hover, setHover] = useState(false);
     const styleMiroir = hover ? {opacity: 1} : {opacity: 0}
 
@@ -12,7 +12,5 @@ function Miroir() {
             <p className="card-text">Quel est mon reflet ?</p>
           </div>
         </div>
-    )
+    );
 }
-
-export default Miroir

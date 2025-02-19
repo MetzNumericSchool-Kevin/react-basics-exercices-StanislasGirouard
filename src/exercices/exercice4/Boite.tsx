@@ -1,10 +1,6 @@
-
-function Boite ({color}){
-
+export default function Boite ({squareColor}){
 
     return (      
-          <div style={{backgroundColor: color}} className="boite"></div>
-    )
+        <div style={{backgroundColor: squareColor}} className="boite"></div>
+    );
 }
-
-export default Boite

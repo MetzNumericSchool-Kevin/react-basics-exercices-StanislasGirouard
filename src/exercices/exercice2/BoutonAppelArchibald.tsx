@@ -1,4 +1,4 @@
-function BoutonAppelArchibald(props){
+export default function BoutonAppelArchibald(props){
 
     function onClickHandler(){
         props.quandSorcierRepond("🧙‍♂️ Archibald : J'arrive, j'arrive Aventurier !")
@@ -6,7 +6,7 @@ function BoutonAppelArchibald(props){
 
     return (
     <button onClick={onClickHandler} className="btn btn-primary">🛎️ Appeler Archibald</button>
-    )
+    );
 }
 
 // const AutreComposant = BoutonAppelArchibald;
@@ -18,5 +18,3 @@ function BoutonAppelArchibald(props){
 // const AutreComposantC = () => {
 
 // }
-
-export default BoutonAppelArchibald
